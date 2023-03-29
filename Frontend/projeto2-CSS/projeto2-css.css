@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.tudo {
+    background: rgb(17,22,69);
+    background: linear-gradient(330deg, rgba(17,22,69,1) 6%, rgba(215,82,134,1) 59%);
+
+    width: 100%;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 1000px;
+    padding-top: 8%;
+}
+
+
+.geral   {
+    background-color: #ce6161;
+    color: black;
+    display: grid; /* Pra deixar um em cima do outro */
+    width: 360px;
+    height: 640px;
+    text-align: center;
+    align-items: center;
+    border: 1px black solid;
+}
+
+
+.titulo {
+    margin: 60px;
+}
+
+.corpo {
+    background-color: #ffffff;
+    text-align: center;    
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 461px;
+    width: 360px;
+    align-self: flex-end; /* Para alinhar no FUNDO DO GERAL */
+    display: flex;
+    flex-direction: column;/* Display DIRECTION PRA CONSERETAR TUDO*/
+}
+
+#botaoRegistrar {
+    background-color: #ce6161;
+    border-radius: 30px;
+    border: none;
+    width: 239px;
+    height: 51px;
+    margin: 20px;
+    margin-top: 30px;
+    font-weight: 900;/* Negrito */
+    font-size: 24px;
+    cursor: pointer;/* Mudar o mouse ponteiro */
+    transition: .5s;/* efeitozinho */
+}
+
+#botaoLogar {
+    background-color: #ce6161;
+    border-radius: 30px;
+    border: none;
+    width: 239px;
+    height: 51px;
+    margin: 20px;
+    margin-top: 30px;
+    font-weight: 900;/* Negrito */
+    font-size: 24px;
+    cursor: pointer;/* Mudar o mouse ponteiro */
+    transition: .5s;/* efeitozinho */
+}
+
+#linkbotao{
+    text-decoration: none;
+    color: black;
+}
+
+/* a:link{
+    color: blue;
+}
+a:visited{
+    color: red;
+} */
+
+button:hover{
+    background-color: #ce6161; /* A cor de fundo do efeitinho */
+    text-decoration: underline;/* Deixar SUBLINHADO */
+}
+
+.linha {
+
+    width: 282px;
+    height: 30px;
+    align-items: center;
+    border: none;
+    border-bottom: black solid;
+    padding-left: 5px;
+    
+}   
+
+p {
+    padding: 10px;
+    width: 282px;
+    text-align: left;
+    font-weight: 900;/* Negrito */
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+#final {
+    font-weight: 900;/* Negrito */
+}
